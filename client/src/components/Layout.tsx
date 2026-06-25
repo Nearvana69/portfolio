@@ -9,7 +9,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { theme } = useTheme();
-  const bgImage = theme === 'dark' ? '/image/hero_bg_dark.png' : '/image/hero_bg.webp';
+  const bgImage = theme === 'dark' ? '/image/hero_bg_dark.webp' : '/image/hero_bg.webp';
 
   return (
     <div
