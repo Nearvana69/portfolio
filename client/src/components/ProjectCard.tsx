@@ -7,7 +7,6 @@ interface ProjectCardProps {
   image: string;
   imagePosition?: string;
   tags: string[];
-  liveUrl?: string;
   githubUrl?: string;
   index: number;
 }
@@ -18,7 +17,6 @@ export default function ProjectCard({
   image,
   imagePosition = 'center',
   tags,
-  liveUrl,
   githubUrl,
   index,
 }: ProjectCardProps) {
@@ -66,18 +64,6 @@ export default function ProjectCard({
 
         {/* Links */}
         <div className="flex gap-3 pt-4 border-t border-gray-200 dark:border-gray-700">
-          {liveUrl && (
-            <motion.a
-              href={liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium text-sm"
-              whileHover={{ x: 4 }}
-            >
-              Voir le projet
-              <ExternalLink className="w-4 h-4" />
-            </motion.a>
-          )}
           {githubUrl && (
             <motion.a
               href={githubUrl}

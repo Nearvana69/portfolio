@@ -15,7 +15,6 @@ export default function Projects() {
       imagePosition: 'center 50%',
       tags: ['React', 'NestJS', 'PostgreSQL', 'Tailwindcss'],
       category: 'web',
-      liveUrl: '#',
       githubUrl: 'https://github.com/Scolaris1/',
     },
     {
@@ -26,7 +25,6 @@ export default function Projects() {
       imagePosition: 'center 65%',
       tags: ['React', 'TypeScript', 'NestJs', 'TailwindCSS', 'PostgreSQL'],
       category: 'web',
-      liveUrl: '#',
       githubUrl: 'https://github.com/projet-IHM-L3',
     },
     {
@@ -37,7 +35,6 @@ export default function Projects() {
       imagePosition: 'center 30%',
       tags: ['Flutter', 'Dart', 'shared preferences'],
       category: 'mobile',
-      liveUrl: '#',
       githubUrl: '#',
     },
     {
@@ -48,7 +45,6 @@ export default function Projects() {
       imagePosition: 'center 50%',
       tags: ['Java', 'JavaFx', 'PostgreSQL'],
       category: 'Desktop',
-      liveUrl: '#',
       githubUrl: 'https://github.com/Nearvana69/takombitsiky',
     }
   ];
